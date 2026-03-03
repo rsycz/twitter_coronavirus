@@ -43,7 +43,6 @@ for hashtag in args.hashtags:
 plt.xlabel('Date')
 plt.ylabel('Number of Tweets')
 plt.title('Hashtag usage over 2020')
-plt.legend()
 plt.xticks(rotation=45, ha='right')
 # only show every 30th tick so x-axis isn't crowded
 ax = plt.gca()
