@@ -37,7 +37,6 @@ plt.figure(figsize=(12,6))
 plt.bar(keys, values)
 plt.xlabel('Key')
 plt.ylabel('Count')
-plt.title(f'{args.key} by {args.input_path}')
 plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
 
