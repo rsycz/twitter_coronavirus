@@ -1,7 +1,7 @@
 # Coronavirus Twitter Analysis
 
 ## Overview
-This project analyzes approximately 1.1 billion geotagged tweets from 2020 to track the spread of coronavirus-related hashtags across languages and countries. It uses the MapReduce paradigm to process the data in parallel, with each day's tweets mapped independently and then reduced into a single output.
+This project analyzes approximately 1.1 billion geotagged tweets from 2020 to track the spread of coronavirus-related hashtags across languages and countries. It uses the MapReduce process to organize the data in parallel, with each day's tweets mapped independently and then reduced into a single output.
 
 ## Process
 1. **Map**: `src/map.py` processes each day's tweet file, counting hashtag usage by language and country.
@@ -23,5 +23,5 @@ This project analyzes approximately 1.1 billion geotagged tweets from 2020 to tr
 ### #코로나바이러스 by Country
 ![코로나바이러스 by country](코로나바이러스_reduced.country.png)
 
-### Hashtag Usage Over Time
+### Hashtag Usage Over Time, #coronavirus (Blue) vs. #코로나바이러스 (Orange)
 ![hashtag usage over time](alternative_reduce.png)
